@@ -1,0 +1,19 @@
+a {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  max-width: 1533px;
+  background: burlywood;
+  height: 60px;
+  margin: 0;
+}
+body {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}

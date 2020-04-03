@@ -1,3 +1,67 @@
-body{
-    background: #ddd;
+body {
+    font-family: Verdana;
+    font-size: 13px;
+    color: 333;
+    background: #f3f3f3;
 }
+
+a {
+    color: #cd2c2c;
+    text-decoration: none;
+}
+
+h4+li *{
+    border-bottom: 1px dashed, black;
+}
+
+h4+li *{
+    color: blueviolet;
+}
+
+:link{
+    border-bottom: 1px dashed #444;
+}
+
+:visited{
+    border-bottom: 1px solid #cd2c2c;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+:active{
+    background: green;
+
+}
+
+:focus{
+    background: khaki;
+}
+
+li:nth-child(2n){
+    color: lawngreen;
+}
+
+h2::before{
+    font-size: 10px;
+    content: 'title';
+}
+
+a[title]{
+    color: lightcoral;
+}
+
+
+a[href$="png"]::after {
+    content: '(png)';
+    font-size: 10px;
+    color: lightsalmon;
+}
+
+a[href$="jpg"]::after {
+    content: '(jpg)';
+    font-size: 10px;
+    color: lightsalmon;
+}
+

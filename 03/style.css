@@ -1,3 +1,14 @@
 body{
-    background: #ddd;
+     background-color: palegoldenrod;
+}
+
+}
+h1,li{
+    color: pink;
+}
+div#main{
+    color: green;
+}
+.list li{
+    border-bottom: 1px dashed #666;
 }

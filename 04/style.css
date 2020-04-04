@@ -28,9 +28,10 @@ h4 {
 }
 
 .lorem {
-  overflow: scroll;
+  overflow-y: scroll;
   position: relative;
   margin-left: 400px;
+  max-height: 100px;
   margin-right: 400px;
   background: #ccc;
 }

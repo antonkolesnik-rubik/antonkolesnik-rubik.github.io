@@ -44,7 +44,7 @@ body {
   border-radius: 3px;
   margin: 12px;
   cursor: pointer;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
   padding: 1.5em 2em;
   border: 1px solid #fff;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
@@ -56,10 +56,9 @@ body {
   color: #fff;
   transform: scale(1.1);
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
-
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(218, 218, 218);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(218, 218, 218);
 }

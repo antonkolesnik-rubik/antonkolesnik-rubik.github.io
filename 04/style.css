@@ -1,0 +1,36 @@
+.container {
+  background: #ccc;
+  display: block;
+  width: 30px;
+  height: 100px;
+  margin: 30px auto;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+body {
+  font: 1em arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-inner {
+  background: #ccc;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+h4 {
+  background: #999;
+  margin-right: 360px;
+  margin-left: 360px;
+}
+
+.lorem {
+  overflow: scroll;
+  position: relative;
+  margin-left: 400px;
+  margin-right: 400px;
+  background: #ccc;
+}

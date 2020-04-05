@@ -1,0 +1,78 @@
+.container {
+  background: #ccc;
+  display: block;
+  width: 30px;
+  height: 100px;
+  margin: 30px auto;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+body {
+  font: 1em arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-inner {
+  position: fixed;
+  background: #ccc;
+  padding: 10px;
+  z-index: 1;
+}
+
+h4 {
+  background: #999;
+  margin-right: 360px;
+  margin-left: 360px;
+}
+
+.lorem {
+  overflow-y: scroll;
+  position: relative;
+  margin-left: 400px;
+  max-height: 100px;
+  margin-right: 400px;
+  background: #ccc;
+}
+
+.project {
+  max-height: 500px;
+  width: 100%;
+  max-width: 600px;
+  background: #aaa;
+  margin: 1em auto;
+  position: relative;
+  height: 65vw;
+  width: 65vw;
+}
+
+.blocks {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  background: #000;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.center {
+  top: 50%;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  
+  left: 50%;
+}

@@ -15,9 +15,9 @@ body {
 }
 
 .container-inner {
+  position: fixed;
   background: #ccc;
   padding: 10px;
-  position: fixed;
   z-index: 1;
 }
 
@@ -34,4 +34,42 @@ h4 {
   max-height: 100px;
   margin-right: 400px;
   background: #ccc;
+}
+
+.project {
+  width: 100%;`
+  height: 500px;
+  width: 500px;
+  background: #aaa;
+  margin: 1em auto;
+  position: relative;
+}
+
+.blocks {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  background: #000;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.center {
+  top: 242px;
+  bottom: 242px;
+  right: 242px;
+  left: 242px;
 }

@@ -1,0 +1,8 @@
+.container {
+  width: 260px;
+  height: 260px;
+  margin: 50px;
+  border-radius: 10px 70% 10px 70%;
+  background-image: url(https://poster.by/db/b0008323.jpg);
+  background-repeat: no-repeat;
+}

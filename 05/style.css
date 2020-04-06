@@ -1,5 +1,5 @@
-body {
-  font-family: "PT sans", arial;
+all colors only in hex code colors only in hex codebody {
+  font-family:  Arial;
   font-size: 28.5px;
   font-weight: normal;
   font-style: italic;
@@ -9,7 +9,7 @@ body {
   text-indent: 3px;
   line-height: normal;
   letter-spacing: 2px;
-  text-shadow: 1px 3px 2px skyblue;
+  text-shadow: 1px 3px 2px #0dcec4;
   background: #aaa;
 }
 

@@ -1,7 +1,8 @@
 .container {
     width: 200px;
     height: 200px;
-    margin: 200px;
     background: #ccc;
-    border: ;
+    border: 3px dashed rgb(0, 0, 0);
+    margin: 50px;
 }
+    

@@ -1,5 +1,5 @@
-all colors only in hex code colors only in hex codebody {
-  font-family:  Arial;
+body {
+  font-family: Arial;
   font-size: 28.5px;
   font-weight: normal;
   font-style: italic;
@@ -11,8 +11,4 @@ all colors only in hex code colors only in hex codebody {
   letter-spacing: 2px;
   text-shadow: 1px 3px 2px #0dcec4;
   background: #aaa;
-}
-
-h1 {
-  letter-spacing: -66px;
 }

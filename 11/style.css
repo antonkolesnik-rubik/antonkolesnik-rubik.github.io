@@ -1,0 +1,50 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons li {
+  background: url(./img/css-sprite2.gif) no-repeat;
+  display: inline-block;
+  background-position: -30px -40px;
+  width: 125px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.buttons .button1 {
+  background-position: -66px -47px;
+}
+
+.buttons .button1:hover {
+  background-position: -66px -79px;
+}
+
+.buttons .button1:active {
+  background-position: -66px -112px;
+}
+
+.buttons .button2 {
+  background-position: -66px -149px;
+}
+
+.buttons .button2:hover {
+  background-position: -66px -181px;
+}
+
+.buttons .button2:active {
+  background-position: -66px -213px;
+}
+
+.buttons .button3 {
+  background-position: -196px -149px;
+}
+
+.buttons .button3:hover {
+  background-position: -196px -181px;
+}
+
+.buttons .button3:active {
+  background-position: -196px -213px;
+}

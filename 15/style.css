@@ -1,6 +1,6 @@
 body {
-  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/checkerboard-cross.png);
-  background-size: 100px;
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/5-dots.png);
+  background-size: 200px;
   font: 1em "PT Sans";
   text-transform: uppercase;
 }
@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 30px;
   width: 50px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .nav:hover {
@@ -37,9 +37,9 @@ body {
   width: 200px;
   height: 40px;
   line-height: 40px;
-  background: #bbb;
+  background: rgb(75, 75, 75);
   margin: 1px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding-left: 15px;
   cursor: pointer;
   transition-property: all;

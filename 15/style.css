@@ -1,7 +1,7 @@
 body {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/5-dots.png);
   background-size: 200px;
-  font: 1em "PT Sans";
+  font: 1em "PT Sans", sans-serif;
   text-transform: uppercase;
 }
 

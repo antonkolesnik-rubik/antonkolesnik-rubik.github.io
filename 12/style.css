@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  font-size: 25px;
+}
+
+img {
+  float: left;
+}
+
+.container {
+  background: #ccc;
+  border: 2px solid rgb(87, 87, 87);
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}

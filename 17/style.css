@@ -1,0 +1,24 @@
+body {
+  background: url(http://subtlepatterns.com/patterns/light_noise_diagonal.png);
+  font: 1em "PT Sans" sans-serif;
+}
+
+#wrapper {
+  perspective: 500px;
+  width: 400px;
+  height: 200px;
+}
+
+#container {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 1.2em;
+  height: 150px;
+  width: 250px;
+  line-height: 150px;
+  margin: 80px;
+  text-align: center;
+  transform: rotate3D(1, 1, -1, 40deg);
+}

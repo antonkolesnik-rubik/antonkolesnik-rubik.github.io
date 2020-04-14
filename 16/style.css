@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://www.abeautifulsite.net/uploads/2014/08/congruent-pentagon-outline.png);
+    background-size: 200px;
+}
+
+.container1 {
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin: 50px;
+    background: #999;
+    border-radius: 5px;
+    box-shadow: 0 18px 15px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(rgb(9, 255, 0),rgba(255, 0, 234, 0.733));
+}
+
+.cont2 {
+    width: 400px;
+    height: 300px;
+    display: block;
+    float: right;
+    margin: 50px;
+    background-color: #999;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(30deg, #e66465, #9198e5);
+    animation: rotate 0.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        background: radial-gradient(5deg, #e66465, #9198e5);
+    }
+    50% {
+        background: radial-gradient(180deg, #e66465, #9198e5);
+
+    }
+    100% {
+        background: linear-gradient(360deg, #e66465, #9198e5);
+    }
+}

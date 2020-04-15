@@ -1,0 +1,26 @@
+body {
+  background: url(http://subtlepatterns.com/patterns/grid.png);
+  background-size: 500px;
+  font: 1em Arial;
+}
+
+.square {
+  width: 500px;
+  height: 500px;
+  margin: 100px;
+  border-radius: 50%;
+  background: linear-gradient(rgb(9, 255, 0), rgba(255, 0, 234, 0.733));
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
